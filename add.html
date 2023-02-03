@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/all.min.css">
+    <link rel="stylesheet" href="static/css/boxicons.min.css">
+    <link rel="stylesheet" href="static/css/slick-theme.css">
+    <link rel="stylesheet" href="static/css/slick.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <title>Administration</title>
+</head>
+<body>
+
+    <div class="wrapper dashboard">
+        <div class="sidebar hide">
+            <div class="sidebar-brand">
+                <a href="#">Admin</a>
+            </div>
+            <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-link active">Tableau de bord</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Ajouter une video</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">A propos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Paramètres</a></li>
+            </ul>
+        </div>
+
+        <div class="main-admin full">
+            <div class="top">
+                <div class="row justify-content-between m-0 top-links">
+                    <div class="col-auto">
+                        <span class="d-sm-none pr-2" id="admin-menu-bars"><i class="fa fa-bars"></i></span>
+                        <span>Administration</span>
+                    </div>
+                    <div class="col-auto">
+                        <span>administrateur@gmail.com</span> &nbsp;-&nbsp;
+                        <a href="#">Deconnexion</a>
+                    </div>
+                </div>
+                <hr class="m-0">
+                <div class="title">
+                    <h6>Tableau de bord</h6>
+                </div>
+                <hr class="m-0">
+            </div>
+
+            <div class="content p-3">
+                <form method="post" enctype="multipart/form-data" class="add-form">
+                    <table>
+                        <tr>
+                            <td><label for="id_title">Titre</label></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="id_video">Video</label></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td class="area"><label for="id_desc">Description</label></td>
+                            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><button type="submit">Ajouter</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="static/js/popper.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="static/js/slick.min.js"></script>
+    <script type="text/javascript" src="static/js/main.js"></script>
+</body>
+</html>
