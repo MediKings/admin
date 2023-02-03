@@ -80,6 +80,16 @@ html, body {
     padding: 8px;
 }
 
+.dashboard .content .the-container{
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.dashboard .content .the-container-title{
+    padding: 1rem 1rem 0rem;
+}
+
 .dashboard .content .add-form label{
     font-size: 1.1rem;
 }
